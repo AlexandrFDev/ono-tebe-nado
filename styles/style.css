@@ -36,6 +36,10 @@
     width: 148px;
 }
 
+.address{
+    font-style: normal;
+}
+
 .list__contacts{
     width: 214px;
     list-style: none;
