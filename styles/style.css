@@ -1,4 +1,4 @@
-.header{
+.header {
     height: 105px;
     display: flex;
     justify-content: space-between;
@@ -6,13 +6,13 @@
     padding: 0 26px;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     gap: 36px;
 }
 
-.list__menu{
+.list__menu {
     list-style: circle;
     padding-left: 20px;
     display: flex;
@@ -24,23 +24,23 @@
     font-weight: 400;
 }
 
-.firt__elem{
+.firt__elem {
     list-style: none;
 }
 
-.active__link{
+.active__link {
     text-decoration: none;
 }
 
-.logo__black{
+.logo__black {
     width: 148px;
 }
 
-.address{
+.address {
     font-style: normal;
 }
 
-.list__contacts{
+.list__contacts {
     width: 214px;
     list-style: none;
     display: flex;
@@ -52,11 +52,11 @@
     line-height: 24px;
 }
 
-.main{
+.main {
     flex-grow: 1;
 }
 
-.cover{
+.cover {
     position: relative;
     background-image: url(../images/cover.jpg);
     background-size: cover;
@@ -68,7 +68,7 @@
     justify-content: space-between;
 }
 
-.cover__title{
+.cover__title {
     color: white;
     text-transform: uppercase;
     font-size: 100px;
@@ -78,19 +78,19 @@
     font-family: Raleway, sans-serif;
 }
 
-.cover__title_part{
+.cover__title_part {
     display: block;
 }
 
-.cover__title_part-center{
+.cover__title_part-center {
     text-align: center;
 }
 
-.cover__title_part-end{
+.cover__title_part-end {
     text-align: right;
 }
 
-.overlay{
+.overlay {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -99,12 +99,12 @@
     z-index: 0;
 }
 
-.layout-content__on__overlay{
+.layout-content__on__overlay {
     position: relative;
     z-index: 1;
 }
 
-.cover__bet{
+.cover__bet {
     display: flex;
     justify-content: space-between;
     height: 51px;
@@ -112,7 +112,7 @@
     padding-left: 28px;
 }
 
-.cover__subtitle{
+.cover__subtitle {
     color: white;
     font-size: 22px;
     font-family: Raleway, sans-serif;
@@ -122,7 +122,7 @@
     line-height: 28px;
 }
 
-.cover__button-do{
+.cover__button-do {
     background: none;
     color: white;
     font-family: Raleway, sans-serif;
@@ -134,16 +134,16 @@
     transition-duration: 400ms;
 }
 
-.cover__button-do:hover{
+.cover__button-do:hover {
     background-color: #ffffff;
     color: #000000;
 }
 
-.lots{
+.lots {
     margin: 180px 24px 0;
 }
 
-.lots__title{
+.lots__title {
     font-family: Raleway, sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -152,18 +152,18 @@
     line-height: 46px;
 }
 
-.cards{
+.cards {
     margin-top: 27px;
     margin-bottom: 30px;
 }
 
-.list__cards{
+.list__cards {
     list-style: none;
     display: flex;
     gap: 25px;
 }
 
-.card{
+.card {
     width: 334px;
     height: 563px;
     display: flex;
@@ -173,20 +173,20 @@
     padding: 51px 40px 48px 40px;
 }
 
-.card__link__title{
+.card__link__title {
     color: white;
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
     line-height: 26px;
 }
 
-.card__title{
+.card__title {
     font-size: 22px;
     line-height: 26px;
     font-weight: 700;
 }
 
-.card__content{
+.card__content {
     color: white;
     font-family: Raleway, sans-serif;
     font-size: 20px;
@@ -194,14 +194,14 @@
     font-weight: 400;
 }
 
-.card__image{
+.card__image {
     position: absolute;
     inset: 0;
     height: 100%;
     object-fit: cover;
 }
 
-.link__more__cards{
+.link__more__cards {
     display: inline-block;
     font-family: Raleway, sans-serif;
     font-size: 20px;
@@ -210,7 +210,7 @@
     line-height: 23px;
 }
 
-.about{
+.about {
     margin: 146px 24px 0 24px;
     padding: 35px 0 0 47px;
     display: flex;
@@ -218,13 +218,13 @@
     height: 595px;
 }
 
-.about__header{
+.about__header {
     display: flex;
     align-items: center;
     gap: 72px;
 }
 
-.background__logo{
+.background__logo {
     width: 240px;
     height: 240px;
     background-color: black;
@@ -235,7 +235,7 @@
     flex-wrap: wrap;
 }
 
-.about__title{
+.about__title {
     font-family: Raleway, sans-serif;
     font-size: 40px;
     text-transform: uppercase;
@@ -243,14 +243,14 @@
     font-weight: 700;
 }
 
-.about__content{
+.about__content {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 24px;
 }
 
-.about__content-unit{
+.about__content-unit {
     width: 693px;
     font-size: 20px;
     font-family: Raleway, sans-serif;
@@ -258,19 +258,19 @@
     font-weight: 400;
 }
 
-.footer{
+.footer {
     display: flex;
     margin: 180px 50px 88px;
     justify-content: space-between;
 }
 
-.menu__footer{
+.menu__footer {
     display: flex;
     align-items: center;
     gap: 0;
 }
 
-.list__menu__footer{
+.list__menu__footer {
     display: block;
     list-style: none;
     line-height: 21px;
@@ -280,13 +280,13 @@
     text-align: center;
 }
 
-.social__network{
+.social__network {
     width: 240px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.social__network__image{
+.social__network__image {
     width: 48px;
 }
