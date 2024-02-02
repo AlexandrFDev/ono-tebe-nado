@@ -1,23 +1,22 @@
 .header {
-    height: 105px;
+    min-height: 105px;
     display: flex;
+    margin: 92px 24px 91px 24px;
+    padding: 2px 24px 0 26px;
     justify-content: space-between;
-    margin: 92px 24px 96px 24px;
-    padding: 0 26px;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    gap: 36px;
+    gap: 40px;
 }
 
 .list__menu {
     list-style: circle;
-    padding-left: 20px;
     display: flex;
     flex-wrap: nowrap;
-    gap: 27px;
+    gap: 34px;
     justify-content: center;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -33,11 +32,16 @@
 }
 
 .logo__black {
-    width: 148px;
+    width: 139px;
 }
 
 .address {
     font-style: normal;
+    display: flex;
+    align-items: center;
+    width: 241px;
+    padding-left: 1px;
+    padding-top: 2px;
 }
 
 .list__contacts {
@@ -61,8 +65,8 @@
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
-    height: 757px;
-    padding: 162px 50px 51px 50px;
+    min-height: 757px;
+    padding: 162px 50px 50px 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -72,8 +76,8 @@
     color: white;
     text-transform: uppercase;
     font-size: 100px;
-    line-height: 115px;
-    letter-spacing: 17px;
+    line-height: 126px;
+    letter-spacing: 28px;
     font-weight: 700;
     font-family: Raleway, sans-serif;
 }
@@ -84,10 +88,12 @@
 
 .cover__title_part-center {
     text-align: center;
+    letter-spacing: 31px;
 }
 
 .cover__title_part-end {
     text-align: right;
+    letter-spacing: 20px;
 }
 
 .overlay {
@@ -107,7 +113,7 @@
 .cover__bet {
     display: flex;
     justify-content: space-between;
-    height: 51px;
+    min-height: 51px;
     align-items: center;
     padding-left: 28px;
 }
@@ -118,7 +124,7 @@
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    word-spacing: 22px;
+    word-spacing: 18.5px;
     line-height: 28px;
 }
 
@@ -128,7 +134,7 @@
     font-family: Raleway, sans-serif;
     font-size: 22px;
     border: 1px solid white;
-    padding: 12px 30px;
+    padding: 12px 32px;
     text-transform: uppercase;
     line-height: 25px;
     transition-duration: 400ms;
@@ -154,18 +160,25 @@
 
 .cards {
     margin-top: 27px;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
 
 .list__cards {
+    margin-top: 27px;
+    margin-bottom: 32px;
     list-style: none;
     display: flex;
     gap: 25px;
 }
 
+.card__link__title {
+    color: white;
+    text-decoration: none;
+}
+
 .card {
     width: 334px;
-    height: 563px;
+    min-height: 563px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -173,17 +186,13 @@
     padding: 51px 40px 48px 40px;
 }
 
-.card__link__title {
-    color: white;
-    font-family: Raleway, sans-serif;
-    text-transform: uppercase;
-    line-height: 26px;
-}
-
 .card__title {
     font-size: 22px;
     line-height: 26px;
+    text-transform: uppercase;
     font-weight: 700;
+    font-family: Raleway, sans-serif;
+    text-decoration: underline;
 }
 
 .card__content {
@@ -211,11 +220,11 @@
 }
 
 .about {
-    margin: 146px 24px 0 24px;
-    padding: 35px 0 0 47px;
+    margin: 148px 24px 0 24px;
+    padding: 37px 0 0 47px;
     display: flex;
     flex-direction: column;
-    height: 595px;
+    min-height: 595px;
 }
 
 .about__header {
@@ -226,9 +235,9 @@
 
 .background__logo {
     width: 240px;
-    height: 240px;
+    min-height: 240px;
     background-color: black;
-    padding: 50px;
+    padding: 46px;
     border-radius: 100%;
     display: flex;
     align-content: center;
@@ -248,10 +257,12 @@
     flex-direction: column;
     align-items: flex-end;
     gap: 24px;
+    word-spacing: 0.8px;
+    margin-top: 4px;
 }
 
 .about__content-unit {
-    width: 693px;
+    width: 692px;
     font-size: 20px;
     font-family: Raleway, sans-serif;
     line-height: 24px;
@@ -266,8 +277,8 @@
 
 .menu__footer {
     display: flex;
-    align-items: center;
-    gap: 0;
+    align-items: normal;
+    gap: 41px;
 }
 
 .list__menu__footer {
@@ -280,13 +291,15 @@
     text-align: center;
 }
 
-.social__network {
+.list__social__network{
+    list-style: none;
     width: 240px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .social__network__image {
     width: 48px;
 }
+
+
