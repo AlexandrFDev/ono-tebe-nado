@@ -224,7 +224,6 @@
     padding: 37px 0 0 47px;
     display: flex;
     flex-direction: column;
-    min-height: 595px;
 }
 
 .about__header {
